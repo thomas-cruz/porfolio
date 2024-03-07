@@ -11422,9 +11422,19 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
+@media screen and (max-width:767px) {
+	iframe {
+		width: 100% !important;
+  }
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
+  }
+  iframe{
+    min-width: 480px;
+    min-height: 270px;
   }
 }
 @media (min-width: 992px) {
